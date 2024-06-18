@@ -45,7 +45,7 @@ function Navbar() {
 
 
                     <button onClick={togglePricingPlan} className='bg-black/90  z-50  px-5 py-2 text-md relative flex  items-center justify-center overflow-hidden bg-gray-900 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-red-600 before:duration-500 before:ease-out hover:shadow-red-600  hover:before:h-56 hover:before:w-56 '>
-                        Join Now
+                      <span className="relative z-10">  Join Now</span>
                     </button>
                     <button onClick={toggleMenu} className='lg:hidden'>
                         <AlignCenter />

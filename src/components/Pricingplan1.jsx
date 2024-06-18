@@ -5,7 +5,8 @@ import gorilla from '../assets/gorilla.png';
 function Pricingplan1({ togglePricingPlan }) {
   return (
     <div className='bg-black/60 backdrop-blur-sm flex justify-center items-center fixed inset-0 z-[60]'>
-      <div className='px-5 flex justify-center'>     <div className='bg-white lg:w-1/3 lg:h-5/6 rounded-xl  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] px-5 py-4'>
+      <div className='px-5 flex justify-center'>  
+           <div className='bg-white lg:w-2/5 lg:h-5/6 rounded-xl  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] px-5 py-4'>
         <div className='flex justify-between '>
           <div className=''>
         <div className='flex items-center w-full space-x-3'>
